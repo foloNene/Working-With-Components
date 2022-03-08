@@ -1,0 +1,137 @@
+.FifthWhole {
+  padding: 0%;
+  margin: 0%;
+}
+
+.FifthContainer {
+  width: 100%;
+  color: blue;
+  background-color: #eefbfe;
+}
+
+.FifthTopHolder {
+  background-color: #eefbfe;
+  color: red;
+}
+
+.FifthTopCurve {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.FifthTopParagragh {
+  text-align: center;
+}
+
+.FifthBoxContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.FifthBoxContainer {
+  display: flex;
+}
+
+.FifthBox1 {
+  border: 2px #ccc solid;
+  padding: 3px;
+  line-height: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.FifthBox2 {
+  border: 2px #ccc solid;
+  padding: 3px;
+  line-height: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.FifthBox3 {
+  border: 2px #ccc solid;
+  padding: 3px;
+  line-height: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.FifthBox4 {
+  border: 2px #ccc solid;
+  padding: 3px;
+  line-height: 30px;
+  color: blue;
+  background-color: white;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.FifthMiddleParagraht {
+  text-align: center;
+}
+
+.FifthIconHouse {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FifthIconHolder1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.FifthLogo1 {
+  width: 80px;
+}
+
+.FifthLogo2 {
+  width: 80px;
+}
+
+.FifthIconHolder2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.EmptyDiv5 {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  bottom: 0%;
+  background-color: #eefbfe;
+  z-index: 2;
+}
+.EmptyDiv5::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 56%;
+  width: 70%;
+  height: 70%;
+  background-color: #eefbfe;
+  /* background-color: red; */
+  z-index: 2;
+  bottom: -37.8%;
+  transform: rotate(1deg);
+  left: 30%;
+}
+
+.EmptyDiv5::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #eefbfe;
+  z-index: 2;
+  transform: rotate(1deg);
+  bottom: -37.3%;
+  left: -4%;
+}

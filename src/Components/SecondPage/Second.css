@@ -1,0 +1,103 @@
+.Secondwhole {
+  padding: 0%;
+  margin: 0%;
+}
+
+.SecondContainer {
+  position: relative;
+
+  /* display: flex; */
+
+  width: 100%;
+}
+
+.SecondUpperPart {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SecondUpperLeft {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SecondUpperRight {
+  width: 500px;
+}
+
+.SecondButton {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Image5 {
+  width: 70px;
+}
+
+.Image6 {
+  width: 80px;
+}
+
+.Image7 {
+  width: 70px;
+}
+
+.SecondLower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SecondLowerHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SecondLowerLogos {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HouseImage5 {
+  width: 30%;
+  /* background-color: blue; */
+  /* color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.HouseImage6 {
+  width: 30%;
+  /* background-color: blue; */
+  /* color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.HouseImage7 {
+  width: 30%;
+  /* background-color: blue; */
+  /* color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blue {
+  color: blue;
+}

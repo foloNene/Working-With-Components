@@ -1,0 +1,77 @@
+.LastHolder {
+  color: white;
+  background-color: #293037;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  position: relative;
+}
+
+.LastContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.LastUpperContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ButtomFifthLayer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ButtonPageButton {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.LastLowerContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+}
+
+.FixedIcon {
+  /* width: 10px; */
+  display: flex;
+  flex-direction: row-reverse;
+  position: sticky;
+  bottom: 50px;
+  right: 10px;
+  z-index: 10;
+}
+
+.FooterHolder {
+  color: white;
+  background-color: #353e5c;
+}
+.footPage {
+  background-color: #353e5c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FooterButton {
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

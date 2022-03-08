@@ -1,0 +1,128 @@
+.Whole {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./TynkerBackground.png);
+  position: relative;
+}
+
+.TopContainer {
+  /* background-color: #194f9e; */
+  font-size: large;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(./TynkerBackground.png); */
+  color: white;
+  position: relative;
+  border-radius: none;
+  border: none;
+}
+
+.TopHolder {
+  background-image: url(./TynkerBackground.png);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Logo {
+  width: 120px;
+}
+
+.NavHolder {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.Nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LeftNav {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.HeroHolder {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroContainer {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HeroImage {
+  width: 100%;
+  height: 400px;
+}
+
+.HeadButton {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.LowerCurveContainer {
+  background-color: none;
+  position: absolute;
+  border: none;
+  border-radius: none;
+  color: none;
+  z-index: 2;
+  bottom: 22.4%;
+}
+
+.EmptyDiv {
+  position: relative;
+  height: 170px;
+  width: 100%;
+  bottom: 8.5%;
+  background-color: white;
+}
+
+/* .EmptyDiv::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 56%;
+  width: 100%;
+  height: 100%;
+  background-color: #202731;
+  z-index: 2;
+  bottom: 100%;
+  transform: rotate(2deg);
+}
+
+.EmptyDiv::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #3c31dd;
+  transform: translate(-4%, 40%);
+  z-index: 2;
+} */

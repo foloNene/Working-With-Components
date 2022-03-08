@@ -1,0 +1,94 @@
+.WholeContainer {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+.ThirdContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebfcff;
+  position: relative;
+}
+
+.ThirdUpperContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ThirdLowerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Blue {
+  color: blue;
+}
+
+.ThirdContainerButton {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.ThirdCurvyTop {
+  background-color: #ebfcff;
+}
+
+.ThirdTopCurve {
+  background-color: #ebfcff;
+  position: relative;
+  z-index: 1;
+}
+
+.ThirdLowerCurve {
+  background-color: #ebfcff;
+  position: relative;
+  z-index: 1;
+}
+.ThirdLowerWhite {
+  background-color: white;
+}
+
+.EmptyDiv3 {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  /* bottom: 33.5%; */
+  background-color: white;
+  z-index: 3;
+  top: 30%;
+}
+
+.EmptyDiv3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 56%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  bottom: 100%;
+  transform: rotate(1deg);
+}
+
+.EmptyDiv3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  transform: rotate(1deg);
+  bottom: 40%;
+}

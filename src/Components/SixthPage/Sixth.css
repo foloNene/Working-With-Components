@@ -1,0 +1,145 @@
+.SixthContainer {
+  padding: 0%;
+  margin: 0%;
+  color: black;
+  background-color: #eefbfe;
+}
+
+.GlobalCommunity {
+  text-align: center;
+  font-size: large;
+  color: black;
+  background-color: #eefbfe;
+}
+
+.GlobalButton {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.MapContainer {
+  width: 100%;
+  align-items: center;
+}
+
+.MapHouse {
+  width: 70%;
+  position: absolute;
+}
+
+.Mapblue {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.Shape {
+  width: 100%;
+}
+
+.BlueCurve {
+  height: 100%;
+  width: 100%;
+}
+
+.BlueImage {
+  /* height: 100%; */
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.Dots {
+  position: absolute;
+  left: 40%;
+  z-index: 1;
+  bottom: 40%;
+}
+
+.Dots1 {
+  position: absolute;
+  left: 70%;
+  z-index: 1;
+}
+
+.Dots2 {
+  position: absolute;
+  bottom: 50%;
+  z-index: 1;
+  left: 10%;
+}
+
+.MapContainer {
+  position: relative;
+}
+
+.FifthContainerTestimonia {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 10%;
+  z-index: 2;
+}
+
+.FirstTestomoniaBox {
+  text-align: center;
+  width: 30%;
+  height: 300x;
+  border: 2px #ccc solid;
+  padding: 2px;
+  background-color: white;
+}
+.ForStudent {
+  display: flex;
+  justify-content: center;
+}
+
+.SecondTestomoniaBox {
+  text-align: center;
+  width: 30%;
+  height: 350px;
+  border: 2px #ccc solid;
+  padding: 2px;
+  background-color: white;
+}
+
+.ForParent {
+  display: flex;
+  justify-content: center;
+}
+
+.ThirdTestomoniaBox {
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  border: 2px #ccc solid;
+  padding: 2px;
+  background-color: white;
+}
+
+.ForTeacher {
+  display: flex;
+  justify-content: center;
+}
+
+.IconSixth {
+  width: 70px;
+}
+
+.SixthIconHolder {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
